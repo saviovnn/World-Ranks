@@ -94,7 +94,8 @@ const CountriesTable = ({ countries }) => {
         </div>
 
         {orderCountries.map((country) => (
-          <Link href={`/country/${country.alpha3Code}`}>
+          // console.log(country.cca2),
+          <Link href={`/country/${country.cca2}`}>
             <div className={styles.row}>
               <div className={styles.name}>{country.name.common}</div>
 

@@ -3,9 +3,10 @@ import CountriesTable from "../components/CountriesTable/CountriesTable";
 import Layout from "../components/Layout/Layout";
 import SearchInput from "../components/SearchInput/SearchInput";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home({ countries }) {
-  console.log(countries);
+  // console.log(countries);
 
   const [keyword, setKeyword] = useState("");
 
